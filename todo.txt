@@ -1,0 +1,310 @@
+x deposits not getting emptied out
+x bid 2-day warning printing out wrong
+x deposit 71 is wrong amount
+x when plan made, provide estimate energy left
+x cancel trade printout is not a string
+x are trades working at 1 step away?
+x self blocked by biofence (bad printout)
+x bad rent printouts
+x bio fence depreciation is inconsistent
+x john built new bio fence that 'replaced' old fence and bio fence blocked didn't go to me
+- show where you have rental agreements
+x speaking to neighbors broken
+- maybe too much energy?
+
+
+
+- antagonistic quick accepting of offers
+x rent print is wrong
+x confusing trade lists offers "at c2"
+- double max appeared after long distance move maybe?
+-- move plan account for hoverboard/jump
+x move failed at perfect energy cost
+x dividend seems broken
+x move using plot as a return move denied bc that's current position! must compare to planned position! duh
+x brian saw bids!
+
+
+
+
+
+- patrick hosts on a linux server
+-? patrick's cancel trade error msg
+- most meditative
+- bring back individual's lvt payments (stats are fun!?)
+- a 'new season' pause that requires everyone to ready up or times out.
+- let energy square stack
+- look 'g' to see where g is on the map
+- looking at player, but whose plans are they!?
+- didn't format well for rabbit
+- big map
+- hm, simultaneous crafting/gathering the day someone builds fencing problematic
+- add and remove bots testing
+- RENT command? to rent rental cubes or maybe other things...(if posted by landlord, won't be player-specific, if by renter, then yes)
+x seizure immunity by offering resources for rent
+- "here's how your day went" appears below the report of the day!
+- immediately exiting couldn't find a user..oh maybe bc 'exit' is intercepted up top
+- would like to make addToPlayerInboxByPlayerName not accessible in george.js somehow ayaya
+- add this.playerDids for discord ids for rejoining purposes...maybe [{ pid, did, outbox }]
+- check on game before joining
+- make xerox work
+- make pulpit work
+- make trades expire...otherwise, gets spammy
+- hmm...could make a viewing channel...and a betting game meta hahahahah
+- pruning trades failed (or didn't happen until season?)
+- view yesterday's report, view zot's yesterday's report 'plans yesterday' maybe. 'plans <zot name or #>'?
+- or limit space on land for the building of improvements?
+- and check your own land should draw map and show what you own...somehow (probably hide other zots)
+- map of land owned
+- thought he had to type "?" before all commands
+- daily report should be cleaner, each player can save its yesterday, as metaplan
+- detailed view: utilized all three columns...
+
+
+- sell daily-computer code to bio fence?
+- energycube (longer lasting) (could set rent? only rent-able?) (make esquares depreciate more on use) (how to priotize usage?)
+// make a separate list for mobile
+
+other:
+- accept full resource name where accepting res code
+- align the description printouts when you ? <command>
+- add better start game spacing
+- other scoreboards: chattiest, attackiest
+- hide where you plan to be if no plans to move or say "no moves planned" and "no plans made" separtely below
+- spacing on '? trade' is off 
+
+good:
+- landgrabbers
+- crafting with items for super items
+- limit improvements on a land maybe
+- moaf synthesizer (maybe we make some other super plentiful resource that is not regenerated too?)
+- need seeds or terraforming heheh
+
+great:
+- employment/rental
+- other resources
+- aliens + attacking
+-x lasereye
+
+low priority features:
+- what about 'x' resources for wildcard
+- caring for each other
+- anomalies
+- when you repeat an action, you get a bonus (economies of scale)
+- cooperation benefits
+- improving skills and specialization/starting skills
+- exhaustion (trying to go negative energy penalty)
+- king mode
+- naming puppies or something
+
+///////////////////////////////////////
+
+item fn:
+x vac
+x rod
+x farm
+x getacle gin
+x bed
+x hoverboard
+x closet
+x entroset
+x inject
+x droplet
+x extraarm
+x puppy
+x scratching
+x move/scout
+x gather
+x auction/bid
+x trade (offer/accept)
+x speak/shout
+x terrain regens resources
+x craft
+x warn that auctions have to be started a day before the last day
+x auotomate day! and give heads up for nightfall
+x scoreboard
+x can't view players before starting
+x better terrain distribution
+x gather what?? spell words
+x 10 seconds until 'what day'?
+x confused about letters
+-- what is season?
+x tell time at planning session
+x provide energy warning, hint to use 'me'
+x auction explain only way to buy a plot
+x list craft reqs on craft list, lore on crafts
+x tried to bid to buy land
+x change 'small energy gain' remove 'small'
+x improve how to learn craft info
+x lore for items
+x "bidding ends when day begins"
+x plans not well aligned
+x plans should show total?
+x scouting redundancies hm
+x lore items!
+x how have you not gotten injured
+x get rid of scouting
+x ability to move or scout more after scouting (should be easy! don't toggle 'scouting' and don't advance planned pos)
+x more initial instructions maybe
+x nothing to gather (should warn and specify res type)
+x couldn't find 'offer'
+x hide attack
+x energy of heaven doesn't make sense
+x settings should show players in game?
+x when taking/storing/thawing/freezing, if there's no room, check the next closet
+x pause command
+x regenerating land resources (maybe some land is easier to farm than others somehow)
+x trade items how
+x reorder items
+x improvements isn't defined
+x improvements isn't clear (how to access improvements or check them? using 'land' you could see them, then 'i' if on that land?)
+x typing '<item name> ...' should just work on item in inventory with that name i think
+x typing 'stash...'
+x typing 'take...'
+x allow many arms and lungs
+x period as 'season'
+x make terrains regenerate resources (or plants + resources on land)
+x population mechanics for certain resources like herbivores, carnivores, plant life etc
+x frequently print time when logging to player
+x reloading and rejoining
+x encourage 'plans'
+x save game was blank
+x 'you bid undefined'
+x rejoin and restart integrated into 'join' and 'start' with flags
+x abandon land 
+x make hammer work
+x find out my unique id and somehow give me admin power? or secret message for admin?
+x view hidden commands, because 'all' breaks discord size limit (2k is word limit i guess)
+x settings should tell you how to change a setting
+x "what to do" also confusing?
+x hint to join early on
+x show all players when you join
+x allow speaking/shouting before game starts
+x seems like when a player joins it's messaging everyone who's messaged it before maybe
+x don't allow ``` ...maybe only allow letters?
+x disallow multiple joining
+x split 2k char messages
+x 40 energy start means two gathers is all you can do, 40 energy gain, 2 gathers...want to be able to auction
+x either we make gathers 15 cost or somethign else
+x only print "Use 'plans' to view plans" first few times that addPlan is called by a player...or maybe in first few days only
+x auto reset 1 day
+x should try to gather, even if at wrong location
+x not revealing map
+x planned position messing up on cancel
+x should ready be sent to everyone? or annoying? maybe based on num of players?
+x leaving doesn't take away zot
+x make lizzie update when she's on or off in the see-the-zot channel
+x on close, take away all zot roles?
+x assigning everyone the zot role during gameplay and take it away after hahah
+x first message to lizzie should work, only if it falls thru should it say something flavorful
+x add a 'usingConsole' flag in output.js
+x join 'max' and 'join steve' didn't work...need to test being multiple people again somehow then test 'joining' to non zero list
+x default bid hm
+x my cheat codes don't work for energy and carrying capacity
+x guarantee not start trapped by mountains
+x make status show You're carrying 55/50 (overburdened)
+x make energysquare much bigger deal
+x 'help <plan>' could show energy costs
+x look is broken for top row
+x can't bid top row either
+x loading and rejoining probably most important
+x item hp should show
+x ? wiggsyvac failed
+x drop vs dump
+x putting resources into inv as a way to dodge dumping....hmm
+x lk u/d/l/r would be nice
+x lk at players
+x player list could show ready status, be aligned better
+x ? craftname should single it out and show its costs
+x plans, when no plans, should show energy at least and mention energy gain per day
+x improvement functionality
+x item functionality
+x 'a12' should be shortcut for 'look a12'
+x mountain ranges, 
+x backpack
+x craft double printing? maybe i fixed it just now
+x i guess allow chatting can be got rid of
+x playerLands seem to have a duplicate land object that maybe doesn't get improvements built on?
+x bid h7 1 error
+x trade cancel numbers are off by 1 (accepting worked)
+x debug reveal map
+x is auction being put in inbox
+x trading broken
+x public announcement must be notified to everybody
+x auctions go to all inboxes, not to everyone immediately
+x auction announcement formatting!
+x bid list is not columned
+x '? map' could give lore for the symbol terrain
+x allow build on unowned land
+x map of bids
+x showing high bid
+x remember original bid for land
+x when you leave, no notice
+x when you ready, show list of readied
+x diagonal movement
+x 'lore asdfj' has error
+x show auction end date in auctions
+x backbag bug
+x map has lots of @s!
+x remove biofence when ownership lost
+x what about gathering on owned land of other?
+x allow landlord to raze/seize improvements?
+x biometricfence 
+x maybe look land should show normalView, add land.sources below
+x better how to play, how to play 1, how to play 2, how to play 3
+x typing 'inject' shouldn't use, should show you item info and let you know if you have one
+x notify player when someone has built on their land
+x make bidding cheap?
+x make seizing cheap, but does significant depreciation
+x hide difficulty i guess
+x double printing injuries for looking at other players
+x getLandAtPos for oob planned positions has bugs!
+x players isn't listing all the players?
+x couldn't find account 7
+x bid offer accept don't connect to viewer
+x indicate clearly when you're on the spot you're looking at
+x yes, right col longer than map col without a middle col, alignment bugs out
+x show if auction is ongoing for land in questions
+x look down left considere row 1 oob
+x move down left reinserted me where i was
+x land trasfer was broken
+x wording about auction ending
+x spilling nupnet and getagets resources
+x spilling ploset resources
+x "auctions you bid in" is down one line
+x deposited doesn't work
+x didnt have to pay lvt upon winning auction?
+x hm...depositing pre-auction is tricky! because you don't know what lvt you'll owe!
+x guarantee desert
+x give random chance for really great land
+x energy square should specify
+x can't stash without owning land bug
+x trade view should show 'accept'
+x trade couldn't accept because same square
+x allow traders (within 1 space)
+x use droplet should also work
+x resting on e square ???
+x plan for plans
+x move 'a6' maybe?
+x season 3 off by 1 error maybe?
+x bbb ready for the day was sent to bbb
+x "quickly fashioned into" bad grammar
+x look needs to check for revealed
+x ? resources and sources should work
+x ? resourcesreveal
+x players has (!)
+x reading the sources is confusing vs the resources
+x is check appearing in legend even when planned pos == pos??
+x speak command
+x 'Mama have'
+x switch 'taxes' to 'land' and then see all land you have with improvements and all land owned, land taxes due, debt shown
+x lookin at player should list trade or say 'trades available' at least
+x most messagse broken
+x generosity to the zoot is showing up to everyone
+x bio fences not depreciating
+x double use inject?
+x list of item should have 'hp'
+x energy square might not be working !!
+x invalid input 'try taxes ...'
+x scoreboard
+x does jumpoline work
