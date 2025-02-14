@@ -39,6 +39,7 @@ import {
 import { setLizzieUnavailable, lizzieSummary } from './lizzie.js';
 import { testSuite } from './seethezot.js';
 import { processDay } from './processor.js';
+import { debug } from 'console';
 
 
 const operations = new Map();
@@ -322,10 +323,8 @@ const helpOp = {
 
                 const description = op.shortDescription;
                 if (!op.shortDescription) {
-                    logDEBUG("no short description on " + key);
-                }
-                if (!op.description) {
-                    logDEBUG("no description on " + key);
+                    logDEBUG("no short description on " + key + "!!!");
+                    return;
                 }
                 const commandWidth = 18;
                 const descriptionWidth = 18;
@@ -621,7 +620,7 @@ operations.set("players", {
 
     fn: (args) => george.playersCommand()
 });
-const zotsOp = {...operations.get("zots")};
+const zotsOp = {...operations.get("players")};
 zotsOp.hide = true;
 operations.set("zots", zotsOp);
 
@@ -1075,11 +1074,11 @@ operations.set("scoreboard", {
     fn: (args) => george.checkScoreboard()
 });
 
-operations.set("george", { 
+operations.set("quote", { 
     hide: true,
     peek: true,
-    lore: `The author of the sacred texts, \"Zogress & Zoverty\" and \"Protection or Zot Trade\"`,
-    shortDescription: "words from others",
+    lore: `Words from famous zots about the author of the sacred texts, \"Zogress & Zoverty\" and \"Protection or Zot Trade\"`,
+    shortDescription: "words about Georgie boy",
     description: "Words about George or words from George.",
     
     fn: (args) => addToCurrentInbox(getRandomQuote(textFile)),
@@ -1091,7 +1090,7 @@ function getRandomQuote(filePath) {
     const data = fs.readFileSync(filePath, 'utf8');
 
     // Split the text into individual quotes
-    const quoteBlocks = data.split(';').filter(block => block.trim() !== '');
+    const quoteBlocks = data.split('^').filter(block => block.trim() !== '');
     
     // Process each quote block and return formatted strings
     return getRandomElement(quoteBlocks.map(block => block.trim()));

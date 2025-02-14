@@ -2,6 +2,8 @@ power shell:
 fnm env --use-on-cd | Out-String | Invoke-Expression
 or whatever so it can find 'node' in the path
 
+
+the below is no longer necessary:
 run ngrok.exe and open tunnel 
 ngrok http 3000 
 (this can be set in the .env variable for port i guess)
