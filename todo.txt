@@ -1,3 +1,6 @@
+testing update
+testing 2
+
 x deposits not getting emptied out
 x bid 2-day warning printing out wrong
 x deposit 71 is wrong amount
