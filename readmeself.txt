@@ -19,7 +19,7 @@ then i had to recreate the .env file using the discord bot's secret token
 then it worked, but i needed it to stay running forever
 patrick told me about 'forever'
 i 'apt install forever -g' i think (first i accidentally did 'forever-monitor' and that had issues)
-
+(i think i 'apt install', not npm)
 
 
 if using power shell on windows:
